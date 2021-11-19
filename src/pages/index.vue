@@ -13,7 +13,7 @@ const searchItem = ref("");
       v-model="searchItem"
       @change="search(searchItem)"
       type="text"
-      placeholder="Search an Advise..."
+      placeholder="Search for Advise..."
       class="w-full py-4 mt-16 text-xl text-center rounded-full"
     />
     <div class="grid grid-cols-2 gap-16 pt-16">
